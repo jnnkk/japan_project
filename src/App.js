@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Tokyo from './pages/Tokyo';
 import Osaka from './pages/Osaka';
 import Fukuoka from './pages/Fukuoka';
+import Beppu from './pages/Beppu';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/tokyo" element={<Tokyo />} />
           <Route path="/osaka" element={<Osaka />} />
           <Route path="/fukuoka" element={<Fukuoka />} />
+          <Route path="/beppu" element={<Beppu />} />
         </Routes>
       </main>
       <Footer />
