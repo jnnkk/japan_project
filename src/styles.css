@@ -3,11 +3,12 @@ body {
 }
 
 .hero {
-    background: url('https://via.placeholder.com/1200x400') no-repeat center center;
+    background: url('../public/img/cherryheader.jpg') no-repeat;
     background-size: cover;
-    color: white;
+    color: black;
     text-align: center;
     padding: 100px 0;
+    text-shadow: 2px 2px 4px white;
 }
 
 .hero h1 {
