@@ -12,7 +12,7 @@ function Header() {
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="#">Home</Link>
+              <Link className="nav-link active" aria-current="page" to="/">Home</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="#">Prepare</Link>
@@ -25,9 +25,9 @@ function Header() {
                 Regions
               </Link>
               <ul className="dropdown-menu">
-                <li><Link className="dropdown-item" to="#">Tokyo</Link></li>
-                <li><Link className="dropdown-item" to="#">Osaka</Link></li>
-                <li><Link className="dropdown-item" to="#">Fukuoka</Link></li>
+                <li><Link className="dropdown-item" to="/tokyo">Tokyo</Link></li>
+                <li><Link className="dropdown-item" to="/osaka">Osaka</Link></li>
+                <li><Link className="dropdown-item" to="/fukuoka">Fukuoka</Link></li>
               </ul>
             </li>
           </ul>
