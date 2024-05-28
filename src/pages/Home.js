@@ -9,25 +9,85 @@ function Home() {
         <h2>Popular Destinations</h2>
         <p>Explore the most popular travel destinations in Japan.</p>
         <div className="row">
-          <div className="col-md-4 pb-5">
-            <h3>Tokyo</h3>
-            <p>The bustling capital city of Japan.</p>
-            <a href="/tokyo" className="btn btn-primary">Learn More</a>
+          <div className="col-md-4 mb-5" id='tokyo'>
+            <div className="card text-bg-dark">
+              <img src="img/tokyo_main.jpg" className="card-img" alt="..."></img>
+              <div className="card-img-overlay">
+                <h3 className="card-title">Tokyo</h3>
+              </div>
+            </div>
           </div>
-          <div className="col-md-4 pb-5"> 
-            <h3>Osaka</h3>
-            <p>Known for its modern architecture and nightlife.</p>
-            <a href="/osaka" className="btn btn-primary">Learn More</a>
+          <div className="col-md-4 mb-5" id='osaka'> 
+            <div className="card text-bg-dark">
+              <img src="img/osaka_main.jpg" className="card-img" alt="..."></img>
+              <div className="card-img-overlay">
+                <h3 className="card-title">Osaka</h3>
+              </div>
+            </div>
           </div>
-          <div className="col-md-4 pb-5">
-            <h3>Fukuoka</h3>
-            <p>A city known for its ancient temples and beaches.</p>
-            <a href="/fukuoka" className="btn btn-primary">Learn More</a>
+          <div className="col-md-4 mb-5" id='fukuoka'>
+            <div className="card text-bg-dark">
+              <img src="img/fukuoka_main.jpg" className="card-img" alt="..."></img>
+              <div className="card-img-overlay">
+                <h3 className="card-title">Fukuoka</h3>
+              </div>
+            </div>
           </div>
-          <div className="col-md-4 pb-5">
-            <h3>Beppu</h3>
-            <p>A city known for its ancient temples and beaches.</p>
-            <a href="/beppu" className="btn btn-primary">Learn More</a>
+          <div className="col-md-4 mb-5">
+            <div className="card text-bg-dark">
+              <img src="img/beppu_main.jpg" className="card-img" alt="..."></img>
+              <div className="card-img-overlay">
+                <h3 className="card-title">Beppu</h3>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 mb-5">
+            <div className="card text-bg-dark">
+              <img src="img/yufuin_main.jpg" className="card-img" alt="..."></img>
+              <div className="card-img-overlay">
+                <h3 className="card-title">Yufuin</h3>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 mb-5">
+            <div className="card text-bg-dark">
+              <img src="img/kumamoto_main.jpg" className="card-img" alt="..."></img>
+              <div className="card-img-overlay">
+                <h3 className="card-title">Kumamoto</h3>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 mb-5">
+            <div className="card text-bg-dark">
+              <img src="img/nagasaki_main.jpg" className="card-img" alt="..."></img>
+              <div className="card-img-overlay">
+                <h3 className="card-title">Nagasaki</h3>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 mb-5">
+            <div className="card text-bg-dark">
+              <img src="img/saporo_main.jpg" className="card-img" alt="..."></img>
+              <div className="card-img-overlay">
+                <h3 className="card-title">Saporo</h3>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 mb-5">
+            <div className="card text-bg-dark">
+              <img src="img/okinawa_main.jpg" className="card-img" alt="..."></img>
+              <div className="card-img-overlay">
+                <h3 className="card-title">Okinawa</h3>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 mb-5">
+            <div className="card text-bg-dark">
+              <img src="img/okinawa_main.jpg" className="card-img" alt="..."></img>
+              <div className="card-img-overlay">
+                <h3 className="card-title">Okinawa</h3>
+              </div>
+            </div>
           </div>
         </div>
       </div>
