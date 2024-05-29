@@ -1,10 +1,12 @@
 import React from 'react';
 import Hero from '../components/Hero';
+import Banner from '../components/Banner';
 
 function Home() {
   return (
     <div>
       <Hero />
+      <Banner />
       <div className="container my-5">
         <h2>Popular Destinations</h2>
         <p>Explore the most popular travel destinations in Japan.</p>
