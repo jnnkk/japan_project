@@ -3,7 +3,7 @@ import React from 'react';
 function Hero() {
   return (
     <div className="hero user-select-none" style={{
-      backgroundImage: 'url(../public/img/cherryheader.jpg) no-repeat',
+      backgroundImage: 'url(img/cherryheader.jpg) no-repeat',
       backgroundSize: 'cover',
       color: 'black',
       textalign: 'center',

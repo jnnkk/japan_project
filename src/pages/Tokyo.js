@@ -1,14 +1,14 @@
 import React from 'react';
 import Hero from '../components/Hero';
+import ScrollToTop from '../scripts/ScrollToTop';
+import City from '../components/City';
 
 function Tokyo() {
+  ScrollToTop();
   return (
     <>
       <Hero />
-      <div className="hero user-select-none" style={{backgroundImage: 'url(img/tokyo_main.jpg)'}}>
-        <h1>도쿄</h1>
-        <p>Discover the beauty of Japan's top travel destinations.</p>
-      </div>
+      <City />
       <div className="container my-5">
         <h2>Tokyo</h2>
         <p>Explore the bustling capital city of Japan, known for its skyscrapers, shopping, and food.</p>
@@ -16,6 +16,18 @@ function Tokyo() {
           <div className="col-md-6">
             <h3>Tokyo Tower</h3>
             <p>An iconic landmark with observation decks.</p>
+          </div>
+          <div className="col-md-6">
+            <h3>Asakusa</h3>
+            <p>Historic area with the famous Senso-ji Temple.</p>
+          </div>
+          <div className="col-md-6">
+            <h3>Asakusa</h3>
+            <p>Historic area with the famous Senso-ji Temple.</p>
+          </div>
+          <div className="col-md-6">
+            <h3>Asakusa</h3>
+            <p>Historic area with the famous Senso-ji Temple.</p>
           </div>
           <div className="col-md-6">
             <h3>Asakusa</h3>

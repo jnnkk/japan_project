@@ -7,7 +7,7 @@ function Home() {
     <>
       <Hero />
       <Banner />
-      <div className="container my-5">
+      <div className="container my-5 user-select-none">
         <h2>Popular Destinations</h2>
         <p>Explore the most popular travel destinations in Japan.</p>
         <div className="row">
