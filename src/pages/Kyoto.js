@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Beppu() {
+function Kyoto() {
   return (
     <div className="container my-5">
       <h2>Fukuoka</h2>
@@ -19,4 +19,4 @@ function Beppu() {
   );
 }
 
-export default Beppu;
+export default Kyoto;

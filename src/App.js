@@ -6,7 +6,7 @@ import Home from './pages/Home';
 import Tokyo from './pages/Tokyo';
 import Osaka from './pages/Osaka';
 import Fukuoka from './pages/Fukuoka';
-import Beppu from './pages/Beppu';
+import Kyoto from './pages/Kyoto';
 import Yufuin from './pages/Yufuin';
 import Kumamoto from './pages/Kumamoto';
 import Nagasaki from './pages/Nagasaki';
@@ -23,7 +23,7 @@ function App() {
           <Route path="/tokyo" element={<Tokyo />} />
           <Route path="/osaka" element={<Osaka />} />
           <Route path="/fukuoka" element={<Fukuoka />} />
-          <Route path="/beppu" element={<Beppu />} />
+          <Route path="/beppu" element={<Kyoto />} />
           <Route path="/yufuin" element={<Yufuin />} />
           <Route path="/kumamoto" element={<Kumamoto />} />
           <Route path="/nagasaki" element={<Nagasaki />} />

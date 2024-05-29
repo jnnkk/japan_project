@@ -4,7 +4,7 @@ import Banner from '../components/Banner';
 
 function Home() {
   return (
-    <div>
+    <>
       <Hero />
       <Banner />
       <div className="container my-5">
@@ -37,9 +37,9 @@ function Home() {
           </div>
           <div className="col-md-4 mb-5">
             <div className="card text-bg-dark">
-              <img src="img/beppu_main.jpg" className="card-img" alt="..."></img>
+              <img src="img/kyoto_main.jpg" className="card-img" alt="..."></img>
               <div className="card-img-overlay">
-                <h3 className="card-title">Beppu</h3>
+                <h3 className="card-title">Kyoto</h3>
               </div>
             </div>
           </div>
@@ -83,17 +83,9 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="col-md-4 mb-5">
-            <div className="card text-bg-dark">
-              <img src="img/okinawa_main.jpg" className="card-img" alt="..."></img>
-              <div className="card-img-overlay">
-                <h3 className="card-title">Okinawa</h3>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

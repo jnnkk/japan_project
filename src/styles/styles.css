@@ -1,18 +1,25 @@
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     font-family: Arial, sans-serif;
 }
 
 .hero {
-    background: url('../public/img/cherryheader.jpg') no-repeat;
+    background: url('../../public/img/cherryheader.jpg') no-repeat;
     background-size: cover;
-    color: black;
+    color: white;
     text-align: center;
     padding: 100px 0;
-    text-shadow: 2px 2px 4px white;
 }
 
 .hero h1 {
     font-size: 3em;
+    font-family: 'SBAggroB';
 }
 
 .hero p {
