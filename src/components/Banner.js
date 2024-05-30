@@ -21,7 +21,7 @@ function Banner() {
     <div className='container my-5'>
       <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
         <div className="col">
-          <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style={{
+          <div className={`${styles.card} card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg`} style={{
             backgroundImage: "url(img/checklist.webp)",
             backgroundPosition: "50% 50%",
             backgroundSize: "150%",
@@ -34,7 +34,7 @@ function Banner() {
         </div>
 
         <div className="col">
-          <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style={{
+          <div className={`${styles.card} card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg`} style={{
             backgroundImage: "url(img/googleflight.png)",
             backgroundPosition: "40% 50%",
             backgroundSize: "150%",
@@ -47,7 +47,7 @@ function Banner() {
         </div>
 
         <div className="col">
-          <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style={{
+          <div className={`${styles.card} card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg`} style={{
             backgroundImage: "url(img/triple.png)",
             backgroundPosition: "50% 50%",
             backgroundSize: "80%",

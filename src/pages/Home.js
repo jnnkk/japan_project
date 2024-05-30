@@ -1,6 +1,9 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import Banner from '../components/Banner';
+import RegionCard from '../components/RegionCard';
+
+
 
 function Home() {
   return (
@@ -11,78 +14,15 @@ function Home() {
         <h2>Popular Destinations</h2>
         <p>Explore the most popular travel destinations in Japan.</p>
         <div className="row">
-          <div className="col-md-4 mb-5" id='tokyo'>
-            <div className="card text-bg-dark">
-              <img src="img/tokyo_main.jpg" className="card-img" alt="..."></img>
-              <div className="card-img-overlay">
-                <h3 className="card-title">Tokyo</h3>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4 mb-5" id='osaka'> 
-            <div className="card text-bg-dark">
-              <img src="img/osaka_main.jpg" className="card-img" alt="..."></img>
-              <div className="card-img-overlay">
-                <h3 className="card-title">Osaka</h3>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4 mb-5" id='fukuoka'>
-            <div className="card text-bg-dark">
-              <img src="img/fukuoka_main.jpg" className="card-img" alt="..."></img>
-              <div className="card-img-overlay">
-                <h3 className="card-title">Fukuoka</h3>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4 mb-5">
-            <div className="card text-bg-dark">
-              <img src="img/kyoto_main.jpg" className="card-img" alt="..."></img>
-              <div className="card-img-overlay">
-                <h3 className="card-title">Kyoto</h3>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4 mb-5">
-            <div className="card text-bg-dark">
-              <img src="img/yufuin_main.jpg" className="card-img" alt="..."></img>
-              <div className="card-img-overlay">
-                <h3 className="card-title">Yufuin</h3>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4 mb-5">
-            <div className="card text-bg-dark">
-              <img src="img/kumamoto_main.jpg" className="card-img" alt="..."></img>
-              <div className="card-img-overlay">
-                <h3 className="card-title">Kumamoto</h3>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4 mb-5">
-            <div className="card text-bg-dark">
-              <img src="img/nagasaki_main.jpg" className="card-img" alt="..."></img>
-              <div className="card-img-overlay">
-                <h3 className="card-title">Nagasaki</h3>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4 mb-5">
-            <div className="card text-bg-dark">
-              <img src="img/saporo_main.jpg" className="card-img" alt="..."></img>
-              <div className="card-img-overlay">
-                <h3 className="card-title">Saporo</h3>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4 mb-5">
-            <div className="card text-bg-dark">
-              <img src="img/okinawa_main.jpg" className="card-img" alt="..."></img>
-              <div className="card-img-overlay">
-                <h3 className="card-title">Okinawa</h3>
-              </div>
-            </div>
-          </div>
+          <RegionCard regionName={"Tokyo"} background={"tokyo_main.jpg"} />
+          <RegionCard regionName={"Osaka"} background={"osaka_main.jpg"} />
+          <RegionCard regionName={"Fukuoka"} background={"fukuoka_main.jpg"} />
+          <RegionCard regionName={"Yufuin"} background={"yufuin_main.jpg"} />
+          <RegionCard regionName={"Kyoto"} background={"kyoto_main.jpg"} />
+          <RegionCard regionName={"Kumamoto"} background={"kumamoto_main.jpg"} />
+          <RegionCard regionName={"Nagasaki"} background={"nagasaki_main.jpg"} />
+          <RegionCard regionName={"Saporo"} background={"saporo_main.jpg"} />
+          <RegionCard regionName={"Okinawa"} background={"okinawa_main.jpg"} />
         </div>
       </div>
     </>

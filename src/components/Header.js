@@ -28,6 +28,12 @@ function Header() {
                 <li><Link className="dropdown-item" to="/tokyo">Tokyo</Link></li>
                 <li><Link className="dropdown-item" to="/osaka">Osaka</Link></li>
                 <li><Link className="dropdown-item" to="/fukuoka">Fukuoka</Link></li>
+                <li><Link className="dropdown-item" to="/yufuin">Yufuin</Link></li>
+                <li><Link className="dropdown-item" to="/kyoto">Kyoto</Link></li>
+                <li><Link className="dropdown-item" to="/kumamoto">Kumamoto</Link></li>
+                <li><Link className="dropdown-item" to="/nagasaki">Nagasaki</Link></li>
+                <li><Link className="dropdown-item" to="/saporo">Saporo</Link></li>
+                <li><Link className="dropdown-item" to="/okinawa">Okinawa</Link></li>
               </ul>
             </li>
           </ul>

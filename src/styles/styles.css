@@ -5,6 +5,20 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'JalnanGothic';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
 body {
     font-family: Arial, sans-serif;
 }
@@ -24,22 +38,4 @@ body {
 
 .hero p {
     font-size: 1.5em;
-}
-
-.card-img-overlay {
-    text-align: center;
-    text-shadow: 2px 2px 4px black;
-}
-
-.card {
-    transition: transform 0.1s ease-in-out;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 0 5px gray;
-}
-
-.card:not(:hover) {
-    transform: translateY(0);
 }

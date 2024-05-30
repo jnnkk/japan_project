@@ -1,0 +1,17 @@
+.cardimgoverlay {
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+}
+
+.card {
+    transition: transform 0.1s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 5px gray;
+}
+
+.card:not(:hover) {
+    transform: translateY(0);
+}
