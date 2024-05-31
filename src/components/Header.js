@@ -15,10 +15,7 @@ function Header() {
               <Link className="nav-link active" aria-current="page" to="/">Home</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="#">Prepare</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="#">etc</Link>
+              <Link className="nav-link" to="/checklist">Checklist</Link>
             </li>
             <li className="nav-item dropdown">
               <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

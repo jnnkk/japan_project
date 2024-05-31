@@ -14,7 +14,7 @@ function Banner() {
   }
 
   const redirect = (path) => {
-    window.location.href = path;
+    window.open(path);
   }
 
   return (

@@ -12,6 +12,7 @@ import Kumamoto from './pages/Kumamoto';
 import Nagasaki from './pages/Nagasaki';
 import Saporo from './pages/Saporo';
 import Okinawa from './pages/Okinawa';
+import Checklist from './pages/Checklist';
 
 function App() {
   return (
@@ -23,12 +24,13 @@ function App() {
           <Route path="/tokyo" element={<Tokyo />} />
           <Route path="/osaka" element={<Osaka />} />
           <Route path="/fukuoka" element={<Fukuoka />} />
-          <Route path="/beppu" element={<Kyoto />} />
+          <Route path="/kyoto" element={<Kyoto />} />
           <Route path="/yufuin" element={<Yufuin />} />
           <Route path="/kumamoto" element={<Kumamoto />} />
           <Route path="/nagasaki" element={<Nagasaki />} />
           <Route path="/saporo" element={<Saporo />} />
           <Route path="/okinawa" element={<Okinawa />} />
+          <Route path="/checklist" element={<Checklist />} />
         </Routes>
       </main>
       <Footer />
