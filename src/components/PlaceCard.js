@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/PlaceCard.module.css";
 
-function PlaceCard({placeImg, placeName, placeAlt, placePos}) {
+function PlaceCard({placeImg, placeName, placeAlt, placePos, placeUrl}) {
     return (
         <div className="col-md-4 mb-5">
             <div className="card" style={{
@@ -13,6 +13,7 @@ function PlaceCard({placeImg, placeName, placeAlt, placePos}) {
                 <div className="card-body">
                     <h4>{placeName}</h4>
                     <p className="card-text">{placeAlt}</p>
+                    <a href={`${placeUrl}`} class="btn btn-outline-info" target="_blank" rel="noreferrer">More Info</a>
                 </div>
             </div>
         </div>

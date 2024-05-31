@@ -26,7 +26,7 @@ function Banner() {
             backgroundPosition: "50% 50%",
             backgroundSize: "150%"
           }}>
-            <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 user-select-none" onClick={() => handleClick('/tokyo')}>
+            <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 user-select-none" onClick={() => handleClick('/checklist')}>
               <h3 className={`${styles.h3} pt-5 mt-5 mb-5 display-6 lh-base fw-bold text-center`} style={shadow}>일본여행<br/>체크리스트</h3>
             </div>
           </div>
