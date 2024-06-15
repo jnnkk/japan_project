@@ -15,7 +15,9 @@ function Yufuin() {
         <h2 style={{
           fontFamily: 'TheJamsil5Bold'
         }}>유 후 인</h2>
-        <p className="mb-5">Explore the bustling capital city of Japan, known for its skyscrapers, shopping, and food.</p>
+        <p className="mb-5" style={{
+          fontFamily: 'Pretendard-Regular'
+        }}>Explore the bustling capital city of Japan, known for its skyscrapers, shopping, and food.</p>
         <h3>Place</h3>
         <div className="row">
           <PlaceCard placeImg={"yufuin_main.jpg"} placeName={"도쿄 타워"} placeAlt={"아름다운 전망을 즐길 수 있는 도쿄의 상징"} placeUrl={"https://triple.guide/attractions/c3d2ef37-f0ef-42b4-a210-039dc08143bf?_triple_no_navbar"} />

@@ -35,6 +35,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'ONE-Mobile-POP';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     font-family: Arial, sans-serif;
     background: #ECE9E6;  /* fallback for old browsers */
@@ -59,3 +66,15 @@ body {
 .hero p {
     font-size: 1.5em;
 }
+
+.carousel-inner {
+    height: 500px; /* 원하는 높이로 설정 */
+}
+  
+.carousel-inner img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain; /* 비율을 유지하면서 컨테이너를 채움 */
+    aspect-ratio: 16 / 9;
+}
+  

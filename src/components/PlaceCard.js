@@ -11,8 +11,12 @@ function PlaceCard({placeImg, placeName, placeAlt, placePos, placeUrl}) {
                     objectPosition: `${placePos}`
                 }} src={`${process.env.PUBLIC_URL}/img/${placeImg}`} className={`${styles.ratio} card-img-top`} alt="..."></img>
                 <div className="card-body">
-                    <h4>{placeName}</h4>
-                    <p className="card-text">{placeAlt}</p>
+                    <h4 style={{
+                        fontFamily: 'JalnanGothic'
+                    }}>{placeName}</h4>
+                    <p className="card-text" style={{
+                        fontFamily: 'Pretendard-Regular'
+                    }}>{placeAlt}</p>
                 </div>
                 <a href={`${placeUrl}`} className="btn btn-outline-info m-2 p-md-2 p-4" target="_blank" rel="noreferrer">More Info</a>
             </div>
