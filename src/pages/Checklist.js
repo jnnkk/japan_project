@@ -45,7 +45,9 @@ function Checklist() {
               <img src="img/yen.webp" className="card-img-top" alt="..."></img>
               <div className="card-body">
                 <h4 className={`${styles.font_2} card-title`}>환 전</h4>
-                <p className="card-text">일본은 '엔'을 쓰기 때문에 환전을 해서 가야한다! 실시간 환율을 알아보고 환전 하자!</p>
+                <p className="card-text" style={{
+                  fontFamily: 'Pretendard-Regular'
+                }}>일본은 '엔'을 쓰기 때문에 환전을 해서 가야한다!<br></br>실시간 환율을 알아보고 환전 하자!</p>
                 <p className="card-text">{data.date} {data.time} 기준</p>
                 <p className="card-text">(1000원 당)</p>
               </div>
@@ -63,7 +65,9 @@ function Checklist() {
               <div className="card-body">
                 <h4 className={`${styles.font_2} card-title`}>전 기</h4>
               </div>
-              <p className="card-text mb-5">일본은 우리나라와 다르게 100v를 쓴다는 사실!! 알고 계셨나요? 그러기 때문에 '돼지코' 어댑터나 멀티 어댑터를 미리 준비하자!</p>
+              <p className="card-text mb-5" style={{
+                fontFamily: 'Pretendard-Regular'
+              }}>일본은 우리나라와 다르게 100v를 쓴다는 사실!! 알고 계셨나요?<br></br>그러기 때문에 '돼지코' 어댑터나 멀티 어댑터를 미리 준비하자!</p>
             </div>
           </div>
 
@@ -73,7 +77,9 @@ function Checklist() {
               <div className="card-body">
                 <h4 className={`${styles.font_2} card-title`}>여 권</h4>
               </div>
-              <p className="card-text mb-5">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p className="card-text mb-5" style={{
+                fontFamily: 'Pretendard-Regular'
+              }}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>
 
@@ -83,7 +89,9 @@ function Checklist() {
               <div className="card-body">
                 <h4 className={`${styles.font_2} card-title`}>유심, 포켓 와이파이</h4>
               </div>
-              <p className="card-text mb-5">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p className="card-text mb-5" style={{
+                fontFamily: 'Pretendard-Regular'
+              }}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>
 
@@ -93,7 +101,9 @@ function Checklist() {
               <div className="card-body">
                 <h4 className={`${styles.font_2} card-title`}>트래블 월렛</h4>
               </div>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p className="card-text" style={{
+                fontFamily: 'Pretendard-Regular'
+              }}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <a href="www.naver.com" className="btn btn-outline-info m-2 p-md-2 p-4" target="_blank" rel="noreferrer">More Info</a>
             </div>
           </div>
@@ -104,7 +114,9 @@ function Checklist() {
               <div className="card-body">
                 <h4 className={`${styles.font_2} card-title`}>Visit Web Japan</h4>
               </div>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p className="card-text" style={{
+                fontFamily: 'Pretendard-Regular'
+              }}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <a href="www.naver.com" className="btn btn-outline-info m-2 p-md-2 p-4" target="_blank" rel="noreferrer">More Info</a>
             </div>
           </div>

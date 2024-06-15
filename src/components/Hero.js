@@ -12,7 +12,7 @@ function Hero() {
     }}>
       <h1 style={{
         fontsize: '3em',
-        fontFamily: 'Arial, sans-serif'
+        fontFamily: 'RixInooAriDuriR'
       }}>Welcome to Japan Travel Guide</h1>
       <p>Discover the beauty of Japan's top travel destinations.</p>
     </div>
