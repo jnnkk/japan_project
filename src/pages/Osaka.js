@@ -29,7 +29,7 @@ function Osaka() {
           <PlaceCardNoLink placeImg={"/osaka/place/osaka_place4.jpg"} placeName={"츠텐카쿠"} placeAlt={"오사카 신세카이 거리의 '하늘과 통하는 높은 건물'. 다음날 날씨에 따라 달라지는 네온사인의 야경이 매력적이다."} />
           <PlaceCard placeImg={"/osaka/place/osaka_place5.jpg"} placeName={"가이유칸"} placeAlt={"해양 생물과 함께할 수 있는 세계적인 수족관. 지상에서 해저로 내려가는 콘셉트며 다양한 테마별 체험 이벤트 또한 경험할 수 있다."} placeUrl={"https://www.kaiyukan.com/language/korean/"}/>
           <PlaceCard placeImg={"/osaka/place/osaka_place6.webp"} placeName={"우메다 스카이 빌딩"} placeAlt={"파노라마 야경을 볼 수 있는 독특한 디자인의 마천루. 공중정원 전망대에서 볼 수 있는 오사카의 시내가 인상깊다."} placeUrl={"https://triple.guide/attractions/dca30d07-da9a-441c-a368-a0c717837bc0?_triple_no_navbar"}/>
-          <PlaceCardNoLink placeImg={"/osaka/place/osaka_place7.jpg"} placeName={"덴포산 대관람차"} placeAlt={"오사카와 간사이의 풍경을 한눈에 담을 수 있는, 화려한 빛을 발하는 낭만적인 야경 명소이다. 8개의 곤돌라는 전면 투명유리로 되어있어 더욱 아찔한 체험이 가능하다."} />
+          <PlaceCard placeImg={"/osaka/place/osaka_place7.jpg"} placeName={"덴포산 대관람차"} placeAlt={"오사카와 간사이의 풍경을 한눈에 담을 수 있는, 화려한 빛을 발하는 낭만적인 야경 명소이다. 8개의 곤돌라는 전면 투명유리로 되어있어 더욱 아찔한 체험이 가능하다."} placeUrl={"https://triple.guide/regions/71476976-cf9a-4ae8-a60f-76e6fb26900d/attractions/01929c6f-9213-4a78-a31d-3d37d6ef54e9"}/>
         </div>
         <h3>Food</h3>
         <div className='row justify-content-center text-center'>
