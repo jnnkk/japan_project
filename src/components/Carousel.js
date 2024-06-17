@@ -2,7 +2,9 @@ import React from "react";
 
 function Carousel({carouselImg1, carouselImg2, carouselImg3, carouselPos1, carouselPos2, carouselPos3}) {
     return (
-        <div id="carouselExampleIndicators" className="carousel slide m-2 mb-5"  data-bs-ride="carousel">
+        <div id="carouselExampleIndicators" className="carousel slide" style={{
+            margin: "10%",
+        }}  data-bs-ride="carousel">
             <div className="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
