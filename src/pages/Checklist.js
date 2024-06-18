@@ -49,12 +49,12 @@ function Checklist() {
                   fontFamily: 'Pretendard-Regular'
                 }}>일본은 '엔'을 쓰기 때문에 환전을 해서 가야한다!<br></br>실시간 환율을 알아보고 환전 하자!</p>
                 <p className="card-text">{data.date} {data.time} 기준</p>
-                <p className="card-text">(1000원 당)</p>
+                <p className="card-text">(100엔 당)</p>
               </div>
               <ul className="list-group list-group-flush">
-                <li className={`${styles.font_1} list-group-item`}>기준: {data.basePrice}￥</li>
-                <li className={`${styles.font_1} list-group-item`}>살때: {data.cashBuyingPrice}￥</li>
-                <li className={`${styles.font_1} list-group-item`}>팔때: {data.cashSellingPrice}￥</li>
+                <li className={`${styles.font_1} list-group-item`}>기준: {data.basePrice}원</li>
+                <li className={`${styles.font_1} list-group-item`}>살때: {data.cashBuyingPrice}원</li>
+                <li className={`${styles.font_1} list-group-item`}>팔때: {data.cashSellingPrice}원</li>
               </ul>
             </div>
           </div>
