@@ -11,6 +11,9 @@ function Checklist() {
     const fetchUsers = async () => {
       // API URL
       const apiURL = '/api/site/program/financial/exchangeJSON?authkey=' + process.env.REACT_APP_JAPAN_API_KEY + '&searchdate=20240903&data=AP01'
+      if(process.env.REACT_APP_JAPAN_API_KEY) {
+        console.log("API key is set " + process.env.REACT_APP_JAPAN_API_KEY[0]);
+      }
       try {
         const response = await fetch(apiURL);
         if (!response.ok) {
