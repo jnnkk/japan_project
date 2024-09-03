@@ -7,10 +7,20 @@ import styles from '../styles/Checklist.module.css';
 function Checklist() {
   const [data, setData] = useState([]);
 
+  // 오늘 날짜
+  const today = new Date();
+  const year = today.getFullYear();
+  const month = (today.getMonth() + 1).toString().padStart(2, '0'); 
+  const day = (today.getDate()-1).toString().padStart(2, '0');
+  // yyyymmdd 형식으로 변환
+  const currentDate = year + month + day;
+  console.log("currentDate: " + currentDate);
+
   useEffect(() => {
     const fetchUsers = async () => {
+
       // API URL
-      const apiURL = '/api/site/program/financial/exchangeJSON?authkey=' + process.env.REACT_APP_JAPAN_API_KEY + '&searchdate=20240903&data=AP01'
+      const apiURL = '/api/site/program/financial/exchangeJSON?authkey=' + process.env.REACT_APP_JAPAN_API_KEY + '&searchdate=' + currentDate + '&data=AP01'
       if(process.env.REACT_APP_JAPAN_API_KEY) {
         console.log("API key is set " + process.env.REACT_APP_JAPAN_API_KEY[0]);
       }
@@ -19,9 +29,11 @@ function Checklist() {
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
+        console.log(response);
         const result = await response.json(); // 응답을 JSON으로 변환
         const japaneseYenData = result.find(item => item.cur_nm === "일본 옌");
         setData(japaneseYenData);
+        console.log(japaneseYenData);
       } catch (error) {
         console.error('There was a problem with the fetch operation:', error);
       }
@@ -50,7 +62,7 @@ function Checklist() {
                 <p className="card-text fs-5" style={{
                   fontFamily: 'Pretendard-Regular'
                 }}>일본은 '엔'을 쓰기 때문에 환전을 해서 가야한다!<br></br>실시간 환율을 알아보고 환전 하자!</p>
-                <p className="card-text">{data.date} {data.time} 기준</p>
+                <p className="card-text">{currentDate} 기준</p>
                 <p className="card-text">(100엔 당)</p>
               </div>
               <ul className="list-group list-group-flush">
