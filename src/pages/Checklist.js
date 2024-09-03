@@ -10,16 +10,15 @@ function Checklist() {
   useEffect(() => {
     const fetchUsers = async () => {
       // API URL
-      const apiURL = '/api/v1/forex/recent?codes=FRX.KRWJPY'
-    
+      const apiURL = '/api/site/program/financial/exchangeJSON?authkey=' + process.env.REACT_APP_JAPAN_API_KEY + '&searchdate=20240903&data=AP01'
       try {
         const response = await fetch(apiURL);
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
         const result = await response.json(); // 응답을 JSON으로 변환
-        setData(result[0]);
-        console.log(data);
+        const japaneseYenData = result.find(item => item.cur_nm === "일본 옌");
+        setData(japaneseYenData);
       } catch (error) {
         console.error('There was a problem with the fetch operation:', error);
       }
@@ -52,9 +51,9 @@ function Checklist() {
                 <p className="card-text">(100엔 당)</p>
               </div>
               <ul className="list-group list-group-flush">
-                <li className={`${styles.font_1} list-group-item`}>기준: {data.basePrice}원</li>
-                <li className={`${styles.font_1} list-group-item`}>살때: {data.cashBuyingPrice}원</li>
-                <li className={`${styles.font_1} list-group-item`}>팔때: {data.cashSellingPrice}원</li>
+                <li className={`${styles.font_1} list-group-item`}>기준: {data.deal_bas_r}원</li>
+                <li className={`${styles.font_1} list-group-item`}>살때: {data.tts}원</li>
+                <li className={`${styles.font_1} list-group-item`}>팔때: {data.ttb}원</li>
               </ul>
             </div>
           </div>
